@@ -1,18 +1,55 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home" align="center">
+    <br />
+    <br />
+    <br />
+
+    <HelloWorld msg="Thai Foundation แอปพลิเคชันช่วยเรียนภาษาไทย" />
+
+    <h1 align="center">มหาวิทยาลัยสงขลานครินทร์</h1>
+
+    <br />
+    <h4 align="left">ประวัติความเป็นมา</h4>
+    <br />
+    <br />
+    <img alt="Vue map2" src="../assets/people.jpg" width="550" height="250" />
+    <br />
+    <br />
+    <div align="left">
+      <h7>
+        เนื่องจากในปัจจุบันเทคโนโลยีต่าง
+        ๆได้เข้ามามีบทบาทในการอำนวยความสะดวกหลาย ๆ ด้านแก่ชาวต่างชาติ
+        เพื่อช่วยให้ชาวต่างชาติสามารถเรียนรู้คำศัพท์ คำอ่าน
+        การออกเสียงของภาษาไทยและเพื่อให้ผู้ที่มีความสนใจสามารถเรียนรู้คำศัพท์พื้นฐานของภาษาไทยสำหรับชาวต่างชาติเพื่อให้สามารถสื่อสารและเรียนรู้ภาษาไทยได้
+        ซึ่งมีความสำคัญอย่างมากในการเรียนรู้เพราะใช้เป็นความรู้พื้นฐานและใช้เป็นเครื่องมือในการดำรงชีวิตหรือใช้การเรียน
+        ตลอดจนสามารถนำมาเป็นพื้นฐานในการเรียนรู้ประสบการณ์อื่น ๆ ต่อไป
+        โครงงานนี้มุ่งเน้น
+        ศึกษาพัฒนาสื่อการเรียนรู้คำศัพท์ภาษาไทยให้กับชาวต่างชาติที่เข้ามาศึกษาในประเทศไทยและผู้ที่มีความสนใจเกี่ยวกับภาษาไทย
+        ในที่นี้จะเป็นการศึกษาผ่านแอปพลิเคชันเพื่อให้มีความสะดวกสบายใจการใช้งานและเพื่อให้ตอบสนองต่อความต้องการของผู้ใช้งานอย่างมีประสิทธิภาพ
+      </h7>
+    </div>
+    <div align="left"></div>
+    <br />
+    <br />
+    <img alt="Vue coc1" src="../assets/coc1.png" width="350" />
+    <br />
+    <img alt="Vue psu" src="../assets/psu.png" width="350" />
   </div>
 </template>
+<script>
+export default {};
+</script>
+
+<style></style>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
